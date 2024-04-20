@@ -5,10 +5,14 @@ name= input("whats your name?")
 #     print('bad name')
 # else:
 #     print("Who?")
-match name:
-    case 'harry'| 'poter':
-        print('good name')
-    case 'ron':
-        print('bad name')
-    case _:
-        print('who?')
+# match name:
+#     case 'harry'| 'poter':
+#         print('good name')
+#     case 'ron':
+#         print('bad name')
+#     case _
+#         print('who?')
+if name.startswith('a'):
+    print('good luck')
+else:
+    print('badluck')
