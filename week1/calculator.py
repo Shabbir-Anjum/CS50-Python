@@ -14,6 +14,6 @@ y=float(input('last Value: '))
 #print(round(x/y),4)
 #round to integer
 #print(round(x/y))
-#print(f'{x+y:,}')
-print(f'{x/y:.2f}')
+print(f'{x+y:,}')
+print(f'{x/y:.1f}')
  
