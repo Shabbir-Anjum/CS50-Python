@@ -6,8 +6,10 @@ import sys
 if len(sys.argv)<2:
     sys.exit('error')
     # print('lower')
-elif len(sys.argv)>2:
-       sys.exit('error')
-# else:
+# elif len(sys.argv)>2:
+#        sys.exit('error')
+# # else:
 
-print('are you ', sys.argv[1])
+# print('are you ', sys.argv[1])
+for arg in sys.argv[1:]:
+    print('good you are: ', arg)
